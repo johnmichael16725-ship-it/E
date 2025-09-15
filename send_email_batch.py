@@ -13,7 +13,7 @@ BODY_FILE = 'email_body.html' # <-- File ka naam update kar diya gaya hai
 RECIPIENTS_FILE = 'recipients.txt'
 STATE_FILE = 'state.txt'
 FAILED_EMAILS_FILE = 'failed_emails.txt'
-BATCH_SIZE = 10
+BATCH_SIZE = 5
 
 # Email format ko check karne ke liye function
 def is_valid_email(email):
